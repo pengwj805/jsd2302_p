@@ -22,6 +22,7 @@ public class Client {
             socket = new Socket("localhost",8088); //localhost表示本机IP
             System.out.println("与服务器建立连接成功!");
             System.out.println("你好吗?");
+            System.out.println("我很好");
         } catch (IOException e) {
             e.printStackTrace();
         }
