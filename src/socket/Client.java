@@ -23,6 +23,7 @@ public class Client {
             System.out.println("与服务器建立连接成功!");
             System.out.println("你好吗?");
             System.out.println("我很好");
+            System.out.println("今天最后一次课");
         } catch (IOException e) {
             e.printStackTrace();
         }
